@@ -1,8 +1,12 @@
-import React from "react";
+import React,{} from "react";
 import img1 from "../../assets/img/sanRafa.jpg";
 import me from "../../utils/Me";
 
 const Card = () => {
+
+  
+
+
   return (
     <div className="flex flex-col items-center">
       <div className="h-36 w-96 bg-yellow-500 rounded-t-lg" >
