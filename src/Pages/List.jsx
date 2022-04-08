@@ -18,13 +18,7 @@ const List = () => {
 
       <div className="bg-white flex flex-col w-full border-2 border-black h-3/4 md:w-3/4 overflow-auto">
         <Task />
-        <Task />
-        <Task />
-        <Task />
-        <Task />
-        <Task />
-        <Task />
-        <Task />
+        
       </div>
     </div>
   );

@@ -1,8 +1,13 @@
 import React from "react";
 import Card from "../components/Card/Card";
 import GoToTask from "../components/GoToTask/GoToTask";
+// import { usesPosts } from "../context/postContext";
 
 const Home = () => {
+
+  // const myContext = usesPosts()
+  // console.log(myContext)
+
   return (
     <div
       style={{ minHeight: "100vh" }}
