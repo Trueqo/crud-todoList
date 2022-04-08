@@ -4,7 +4,7 @@ const me = {
     "nombre": "Julian Ochoa Barco",
     'imgProfile':imgProfile,
     'imgProfile2':imgProfile2,
-    'description': "Hola a todo bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas."
+    'description': "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas."
 }
 
 
