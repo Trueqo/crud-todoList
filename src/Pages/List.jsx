@@ -4,7 +4,7 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
 const List = () => {
   return (
-    <div className="h-screen w-full px-6 flex justify-center items-center flex-col bg-slate-400 ">
+    <div className="h-screen w-full px-6 flex justify-center items-center flex-col bg-slate-400">
       <div className="flex flex-row justify-between w-full md:w-3/4 pb-5">
         <h1 className=" text-white font-bold md:w-3/4 text-4xl  w-full">
           Lista de tareas
