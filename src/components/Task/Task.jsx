@@ -17,7 +17,7 @@ const Task = () => {
     obtenerTitulos();
   }, []);
 
-  return(<di>{title.map((dato)=>{return(
+  return(<div>{title.map((dato)=>{return(
     
     <div className="w-full px-6 mt-6  md:px-12 md:mt-10 mb-5 ">
           <div className="flex flex-row justify-end align-baseline gap-2 mb-1">
@@ -30,7 +30,7 @@ const Task = () => {
           </div>
 
           <div className="border-2 border-black md:w-full md:h-20 flex flex-row items-center  w-full h-20">
-            <div className="w-8 h-8 border-2 border-red-900 ml-6 md:ml-10"></div>
+            <div className="w-8 h-8 border-2 border-red-900 ml-4 md:ml-10"></div>
             <div>
               <h1 className="ml-10">
                 {dato.description}
@@ -40,7 +40,7 @@ const Task = () => {
         </div>
     
     
-    )})}</di>)
+    )})}</div>)
 }; 
 
   
